@@ -1,0 +1,154 @@
+/***** Basic Styles *****/
+*{
+	box-sizing: border-box;
+}
+h1{
+	margin-bottom: 25px;
+	text-align: center;
+	font-size: 175%;
+}
+.row{
+	width: 100%;
+	padding: 10px;
+}
+#item1{
+	background:green;
+	padding:8px;
+	color:white;
+	float:right;
+	margin-right:-10px;
+	margin-top:-10px;
+	border: 1px solid black;
+	font-size: 125%;
+}
+
+#item2{
+	background:#ffad99;
+	padding:8px;
+	color:black;
+	float:right;
+	margin-right:-10px;
+	margin-top:-10px;
+	border: 1px solid black;
+	font-size: 125%;
+}
+
+#item3{
+	background:#9999ff;
+	padding:8px;
+	color:red;
+	float:right;
+	margin-right:-10px;
+	margin-top:-10px;
+	border: 1px solid black;
+	font-size: 125%;
+}
+
+p{
+	margin-top:30px;
+}
+
+/***** For Desktop View *****/
+
+@media (min-width: 992px) {
+	.box1{
+		padding:10px;
+		float:left;
+	    width:31%;
+		color:white;
+	    height: auto;
+	    background-color: #005f7f;
+	    border: 1px solid #000;
+	    margin-right: 15px;
+	    margin-left: 20px;
+	}
+	.box2{
+		padding:10px;
+		float:left;
+	    width:31%;
+		color:white;
+	    height: auto;
+	    background-color: #005f7f;
+	    border: 1px solid #000;
+	    margin-right: 15px;
+	}
+
+	.box3{
+		padding:10px;
+		float:left;
+	    width:31%;
+		color:white;
+	    height: auto;
+	    background-color: #005f7f;
+	    border: 1px solid #000;
+	}
+}
+
+/***** For Tablet View *****/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.box1{
+	    padding:10px;
+		display:inline-block;
+	    width:48.7%;
+		color:white;
+	    height: auto;
+	    background-color: #005f7f;
+	    border: 1px solid #000;
+	    margin-right: 15px;
+	}
+
+	.box2{
+	    padding:10px;
+		display:inline-block;
+	    width:48.7%;
+		color:white;
+	    height: auto;
+	    background-color: #005f7f;
+	    border: 1px solid #000;
+	}
+
+	.box3{
+		width:100%;
+		color:white;
+	    height: auto;
+		padding:10px;
+	    background-color: #005f7f;
+	    border: 1px solid #000;
+	    margin-top: 18px;
+	}
+}
+
+/***** For Mobile View *****/
+
+@media (max-width: 767px) {
+	.box1{
+		padding:10px;
+	    width:100%;
+		color:white;
+	    height: auto;
+	    background-color: #005f7f;
+	    border: 1px solid #000;
+	    margin-bottom: 15px;
+	}
+
+	.box2{
+		padding:10px;
+	    width:100%;
+		color:white;
+	    height: auto;
+	    background-color: #005f7f;
+	    border: 1px solid #000;
+	    margin-bottom: 15px;
+	}
+
+	.box3{
+		padding:10px;
+	    width:100%;
+		color:white;
+	    height: auto;
+	    background-color: #005f7f;
+	    border: 1px solid #000;
+	}
+}
+
